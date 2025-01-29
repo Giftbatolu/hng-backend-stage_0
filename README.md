@@ -20,23 +20,30 @@ To run this API locally, follow these steps:
 - Clone the repository.
 - Navigate to the project directory
 - Install the necessary dependencies using npm install
-- Run the API using npm install
+- Start the local server using npm start
 
 ## Usage
 To use the API, send a `GET` request to the following endpoint:
 ```
-GET /api/info
+GET /
 ```
 
 ## Deployment
-The API has been deployed to varcet endpoint. You can access it at:
+The API has been deployed to vercel. You can access it at:
+[https://hng-backend-stage-0-theta.vercel.app](https://hng-backend-stage-0-theta.vercel.app)
 
 ## API Endpoints
-### `/api/info`
+### `/`
 
 - **Method**: `GET`
-- **Response**:
 - **Content-Type**: `application/json`
+- **Response**:
+    (200 ok)
+    {
+	"email": "your-email@example.com",
+	"current_datetime": "2025-01-30T09:30:00Z",
+	"github_url": "<https://github.com/yourusername/your-repo>"
+}
 
 ## Acknowledgments
 - Thanks to the HNG12 Slack workspace for providing the context for this task.
