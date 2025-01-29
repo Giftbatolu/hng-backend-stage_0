@@ -13,8 +13,6 @@ The API is built to handle CORS (Cross-Origin Resource Sharing) and ensures that
 - [Usage](#usage)
 - [Deployment](#deployment)
 - [API Endpoints](#api-endpoints)
-- [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgments](#acknowledgments)
 
 ## Installation
@@ -22,6 +20,7 @@ To run this API locally, follow these steps:
 - Clone the repository.
 - Navigate to the project directory
 - Install the necessary dependencies using npm install
+- Run the API using npm install
 
 ## Usage
 To use the API, send a `GET` request to the following endpoint:
