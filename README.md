@@ -2,7 +2,7 @@
 
 ## Description
 This project implements a public API that returns specifi personal information in JSON format.The API provides the following details:
-- My registered email address for HNG12 slack workplace with is sekinatoyelami@gmail.com
+- Registered email address for HNG12 slack workplace
 - The current datetime as an ISO 8601 formatted timestamp.
 - The GitHub URL of the project's codebase.
 
@@ -40,9 +40,7 @@ GET /
 ## Deployment
 The API has been deployed to vercel. You can access it at:
 
-```
-[https://hng-backend-stage-0-theta.vercel.app](https://hng-backend-stage-0-theta.vercel.app)
-```
+- [https://hng-backend-stage-0-theta.vercel.app](https://hng-backend-stage-0-theta.vercel.app)
 
 ## API Documentation
 
