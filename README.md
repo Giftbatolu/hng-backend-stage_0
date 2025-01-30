@@ -44,7 +44,7 @@ The API has been deployed to vercel. You can access it at:
 
 ## API Documentation
 
-_ **Endpoint**: `/`
+- **Endpoint**: `/`
 - **Method**: `GET`
 - **Content-Type**: `application/json`
 - **Response**: `JSON`
