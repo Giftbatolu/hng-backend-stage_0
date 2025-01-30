@@ -14,13 +14,22 @@ The API is built to handle CORS (Cross-Origin Resource Sharing) and ensures that
 - [Deployment](#deployment)
 - [API Endpoints](#api-endpoints)
 - [Acknowledgments](#acknowledgments)
+- [BackLink](#backlink)
 
 ## Installation
 To run this API locally, follow these steps:
-- Clone the repository.
-- Navigate to the project directory
-- Install the necessary dependencies using npm install
-- Start the local server using npm start
+1. Clone the repository:
+```
+git clone https://github.com/Giftbatolu/hng-backend-stage_0.git
+```
+2. Install the necessary dependencies: 
+```
+npm install
+```
+3. Start the local server by running:
+```
+ npm start
+```
 
 ## Usage
 To use the API, send a `GET` request to the following endpoint:
@@ -30,21 +39,30 @@ GET /
 
 ## Deployment
 The API has been deployed to vercel. You can access it at:
+
+```
 [https://hng-backend-stage-0-theta.vercel.app](https://hng-backend-stage-0-theta.vercel.app)
+```
 
-## API Endpoints
-### `/`
+## API Documentation
 
+_ **Endpoint**: `/`
 - **Method**: `GET`
 - **Content-Type**: `application/json`
-- **Response**:
-    (200 ok)
-    {
-	"email": "your-email@example.com",
-	"current_datetime": "2025-01-30T09:30:00Z",
-	"github_url": "<https://github.com/yourusername/your-repo>"
+- **Response**: `JSON`
+
+### Example Response
+```
+{
+    "email": "sekinatoyelami@gmail.com",
+    "current_datetime": "2025-01-30T00:24:02.611Z",
+    "github_url": "https://github.com/Giftbatolu/hng-backend-stage_0"
 }
+```
 
 ## Acknowledgments
 - Thanks to the HNG12 Slack workspace for providing the context for this task.
 - Inspired by best practices for building and documenting public APIs.
+
+## Backlink
+- [HNG12 Nodejs Developer](https://hng.tech/hire/nodejs-developers)
